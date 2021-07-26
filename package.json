@@ -7,13 +7,15 @@
     "node": "14.x"
   },
   "scripts": {
-    "build": "bower install && grunt build",
+    "build": "if [ $BUILD_ASSETS ]; then npm run build-assets; fi",
+    "build-assets": "bower install && grunt build",
     "start": "nf start"
   },
   "author": "nathan",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
+    "debug": "^4.3.2",
     "discord.js": "^12.5.3",
     "ffmpeg-static": "^4.4.0",
     "yt-search": "^2.9.0",
