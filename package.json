@@ -1,6 +1,6 @@
 {
   "name": "music-bot",
-  "version": "16.5.0",
+  "version": "14.17.3",
   "description": "music bot",
   "main": "index.js",
   "scripts": {
