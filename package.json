@@ -3,7 +3,6 @@
   "version": "14.17.3",
   "description": "music bot",
   "main": "index.js",
-
   "engines": {
     "node": "14.x"
   },
